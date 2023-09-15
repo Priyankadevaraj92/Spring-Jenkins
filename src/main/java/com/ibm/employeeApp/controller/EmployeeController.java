@@ -49,7 +49,7 @@ public class EmployeeController {
 	@GetMapping("/employees")
 	public List<Employee> listEmployees() {
 		return employeeService.getAllEmployees();
-	}
+	// }
 
 	// @GetMapping("/employee/{id}")
 	// public ResponseEntity<?> employee(@PathVariable int id) {
